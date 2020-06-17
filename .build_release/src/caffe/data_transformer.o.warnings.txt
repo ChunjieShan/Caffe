@@ -1,0 +1,62 @@
+src/caffe/data_transformer.cpp: In instantiation of ‘void caffe::DataTransformer<Dtype>::Transform(const cv::Mat&, caffe::Blob<Dtype>*) [with Dtype = float]’:
+src/caffe/data_transformer.cpp:1145:2:   required from here
+src/caffe/data_transformer.cpp:270:14: 警告：unused variable ‘min_side’ [-Wunused-variable]
+  270 |    const int min_side = param_.min_side();
+      |              ^~~~~~~~
+src/caffe/data_transformer.cpp: In instantiation of ‘void caffe::DataTransformer<Dtype>::TransformImageSeg(const cv::Mat&, const cv::Mat&, caffe::Blob<Dtype>*, caffe::Blob<Dtype>*, int) [with Dtype = float]’:
+src/caffe/data_transformer.cpp:1145:2:   required from here
+src/caffe/data_transformer.cpp:561:14: 警告：unused variable ‘rotation_angle’ [-Wunused-variable]
+  561 |    const int rotation_angle = param_.max_rotation_angle();
+      |              ^~~~~~~~~~~~~~
+src/caffe/data_transformer.cpp:565:16: 警告：unused variable ‘max_smooth’ [-Wunused-variable]
+  565 |    const float max_smooth = param_.max_smooth();
+      |                ^~~~~~~~~~
+src/caffe/data_transformer.cpp:568:15: 警告：unused variable ‘debug_params’ [-Wunused-variable]
+  568 |    const bool debug_params = param_.debug_params();
+      |               ^~~~~~~~~~~~
+src/caffe/data_transformer.cpp: In instantiation of ‘void caffe::DataTransformer<Dtype>::TransformImageProb(const cv::Mat&, const cv::Mat&, caffe::Blob<Dtype>*, caffe::Blob<Dtype>*, int) [with Dtype = float]’:
+src/caffe/data_transformer.cpp:1145:2:   required from here
+src/caffe/data_transformer.cpp:773:14: 警告：unused variable ‘rotation_angle’ [-Wunused-variable]
+  773 |    const int rotation_angle = param_.max_rotation_angle();
+      |              ^~~~~~~~~~~~~~
+src/caffe/data_transformer.cpp:777:16: 警告：unused variable ‘max_smooth’ [-Wunused-variable]
+  777 |    const float max_smooth = param_.max_smooth();
+      |                ^~~~~~~~~~
+src/caffe/data_transformer.cpp:780:15: 警告：unused variable ‘debug_params’ [-Wunused-variable]
+  780 |    const bool debug_params = param_.debug_params();
+      |               ^~~~~~~~~~~~
+src/caffe/data_transformer.cpp: In instantiation of ‘void caffe::DataTransformer<Dtype>::Transform(const cv::Mat&, caffe::Blob<Dtype>*) [with Dtype = double]’:
+src/caffe/data_transformer.cpp:1145:2:   required from here
+src/caffe/data_transformer.cpp:270:14: 警告：unused variable ‘min_side’ [-Wunused-variable]
+  270 |    const int min_side = param_.min_side();
+      |              ^~~~~~~~
+src/caffe/data_transformer.cpp: In instantiation of ‘void caffe::DataTransformer<Dtype>::TransformImageSeg(const cv::Mat&, const cv::Mat&, caffe::Blob<Dtype>*, caffe::Blob<Dtype>*, int) [with Dtype = double]’:
+src/caffe/data_transformer.cpp:1145:2:   required from here
+src/caffe/data_transformer.cpp:561:14: 警告：unused variable ‘rotation_angle’ [-Wunused-variable]
+  561 |    const int rotation_angle = param_.max_rotation_angle();
+      |              ^~~~~~~~~~~~~~
+src/caffe/data_transformer.cpp:565:16: 警告：unused variable ‘max_smooth’ [-Wunused-variable]
+  565 |    const float max_smooth = param_.max_smooth();
+      |                ^~~~~~~~~~
+src/caffe/data_transformer.cpp:568:15: 警告：unused variable ‘debug_params’ [-Wunused-variable]
+  568 |    const bool debug_params = param_.debug_params();
+      |               ^~~~~~~~~~~~
+src/caffe/data_transformer.cpp: In instantiation of ‘void caffe::DataTransformer<Dtype>::TransformImageProb(const cv::Mat&, const cv::Mat&, caffe::Blob<Dtype>*, caffe::Blob<Dtype>*, int) [with Dtype = double]’:
+src/caffe/data_transformer.cpp:1145:2:   required from here
+src/caffe/data_transformer.cpp:773:14: 警告：unused variable ‘rotation_angle’ [-Wunused-variable]
+  773 |    const int rotation_angle = param_.max_rotation_angle();
+      |              ^~~~~~~~~~~~~~
+src/caffe/data_transformer.cpp:777:16: 警告：unused variable ‘max_smooth’ [-Wunused-variable]
+  777 |    const float max_smooth = param_.max_smooth();
+      |                ^~~~~~~~~~
+src/caffe/data_transformer.cpp:780:15: 警告：unused variable ‘debug_params’ [-Wunused-variable]
+  780 |    const bool debug_params = param_.debug_params();
+      |               ^~~~~~~~~~~~
+src/caffe/data_transformer.cpp: 在成员函数‘void caffe::DataTransformer<Dtype>::Transform(const cv::Mat&, caffe::Blob<Dtype>*) [with Dtype = float]’中:
+src/caffe/data_transformer.cpp:404:54: 警告：此函数中的‘beta’在使用前可能未初始化 [-Wmaybe-uninitialized]
+  404 |      LOG(INFO) << "  alpha: " << alpha << ", beta: " << beta;
+      |                                                      ^
+src/caffe/data_transformer.cpp: 在成员函数‘void caffe::DataTransformer<Dtype>::Transform(const cv::Mat&, caffe::Blob<Dtype>*) [with Dtype = double]’中:
+src/caffe/data_transformer.cpp:404:54: 警告：此函数中的‘beta’在使用前可能未初始化 [-Wmaybe-uninitialized]
+  404 |      LOG(INFO) << "  alpha: " << alpha << ", beta: " << beta;
+      |                                                      ^

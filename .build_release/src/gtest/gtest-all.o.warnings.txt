@@ -1,0 +1,11 @@
+In file included from src/gtest/gtest-all.cpp:39:
+在函数‘const char* testing::internal::posix::StrNCpy(char*, const char*, size_t)’中,
+    内联自‘char* testing::internal::CloneString(const char*, size_t)’于 src/gtest/gtest-all.cpp:2143:19,
+    内联自‘static const char* testing::internal::String::CloneCString(const char*)’于 src/gtest/gtest-all.cpp:2154:39:
+./src/gtest/gtest.h:2672:17: 警告：‘char* strncpy(char*, const char*, size_t)’ output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+ 2672 |   return strncpy(dest, src, n);
+      |          ~~~~~~~^~~~~~~~~~~~~~
+src/gtest/gtest-all.cpp: 在静态成员函数‘static const char* testing::internal::String::CloneCString(const char*)’中:
+src/gtest/gtest-all.cpp:2154:39: 附注：length computed here
+ 2154 |                     NULL : CloneString(c_str, strlen(c_str));
+      |                            ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~

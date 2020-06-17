@@ -1,0 +1,4 @@
+tools/caffe.cpp: 在函数‘int main(int, char**)’中:
+tools/caffe.cpp:441:18: 警告：catching polymorphic type ‘struct boost::python::error_already_set’ by value [-Wcatch-value=]
+  441 |     } catch (bp::error_already_set) {
+      |                  ^~~~~~~~~~~~~~~~~

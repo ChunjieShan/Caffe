@@ -1,0 +1,48 @@
+src/caffe/layers/compact_bilinear_layer.cu(346): warning: variable "ihw" was declared but never referenced
+          detected during instantiation of "void caffe::CompactBilinearLayer<Dtype>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<__nv_bool, std::allocator<__nv_bool>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(504): here
+
+src/caffe/layers/compact_bilinear_layer.cu(386): warning: variable "m" was declared but never referenced
+          detected during instantiation of "void caffe::CompactBilinearLayer<Dtype>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<__nv_bool, std::allocator<__nv_bool>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(504): here
+
+src/caffe/layers/compact_bilinear_layer.cu(346): warning: variable "ihw" was declared but never referenced
+          detected during instantiation of "void caffe::CompactBilinearLayer<Dtype>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<__nv_bool, std::allocator<__nv_bool>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(504): here
+
+src/caffe/layers/compact_bilinear_layer.cu(386): warning: variable "m" was declared but never referenced
+          detected during instantiation of "void caffe::CompactBilinearLayer<Dtype>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<__nv_bool, std::allocator<__nv_bool>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(504): here
+
+src/caffe/layers/compact_bilinear_layer.cu(346): warning: variable "ihw" was declared but never referenced
+          detected during instantiation of "void caffe::CompactBilinearLayer<Dtype>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<__nv_bool, std::allocator<__nv_bool>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(504): here
+
+src/caffe/layers/compact_bilinear_layer.cu(386): warning: variable "m" was declared but never referenced
+          detected during instantiation of "void caffe::CompactBilinearLayer<Dtype>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<__nv_bool, std::allocator<__nv_bool>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(504): here
+
+src/caffe/layers/compact_bilinear_layer.cu(346): warning: variable "ihw" was declared but never referenced
+          detected during instantiation of "void caffe::CompactBilinearLayer<Dtype>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<__nv_bool, std::allocator<__nv_bool>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(504): here
+
+src/caffe/layers/compact_bilinear_layer.cu(386): warning: variable "m" was declared but never referenced
+          detected during instantiation of "void caffe::CompactBilinearLayer<Dtype>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<__nv_bool, std::allocator<__nv_bool>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(504): here
+
+src/caffe/layers/compact_bilinear_layer.cu(346): warning: variable "ihw" was declared but never referenced
+          detected during instantiation of "void caffe::CompactBilinearLayer<Dtype>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<__nv_bool, std::allocator<__nv_bool>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(504): here
+
+src/caffe/layers/compact_bilinear_layer.cu(386): warning: variable "m" was declared but never referenced
+          detected during instantiation of "void caffe::CompactBilinearLayer<Dtype>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<__nv_bool, std::allocator<__nv_bool>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(504): here
+
+src/caffe/layers/compact_bilinear_layer.cu(346): warning: variable "ihw" was declared but never referenced
+          detected during instantiation of "void caffe::CompactBilinearLayer<Dtype>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<__nv_bool, std::allocator<__nv_bool>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(504): here
+
+src/caffe/layers/compact_bilinear_layer.cu(386): warning: variable "m" was declared but never referenced
+          detected during instantiation of "void caffe::CompactBilinearLayer<Dtype>::Backward_gpu(const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &, const std::vector<__nv_bool, std::allocator<__nv_bool>> &, const std::vector<caffe::Blob<Dtype> *, std::allocator<caffe::Blob<Dtype> *>> &) [with Dtype=float]" 
+(504): here
+

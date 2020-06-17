@@ -1,0 +1,8 @@
+src/caffe/layer_factory.cpp: In instantiation of ‘boost::shared_ptr<caffe::Layer<Dtype> > caffe::GetPythonLayer(const caffe::LayerParameter&) [with Dtype = float]’:
+src/caffe/layer_factory.cpp:303:1:   required from here
+src/caffe/layer_factory.cpp:297:16: 警告：catching polymorphic type ‘struct boost::python::error_already_set’ by value [-Wcatch-value=]
+  297 |   } catch (bp::error_already_set) {
+      |                ^~~~~~~~~~~~~~~~~
+src/caffe/layer_factory.cpp: In instantiation of ‘boost::shared_ptr<caffe::Layer<Dtype> > caffe::GetPythonLayer(const caffe::LayerParameter&) [with Dtype = double]’:
+src/caffe/layer_factory.cpp:303:1:   required from here
+src/caffe/layer_factory.cpp:297:16: 警告：catching polymorphic type ‘struct boost::python::error_already_set’ by value [-Wcatch-value=]
